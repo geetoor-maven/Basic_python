@@ -15,10 +15,22 @@ print(ccnt[0])
 ccnt.remove("Nur syahrani")
 
 # Perintah untuk mengedit data 
-ccnt[1] = "Andri berek"
+ccnt[1] = "Andri berek \n "
 
 print(ccnt)
 
+# mengakses data ccnt dengan efisien menggunakan keword for
+
+for nama in ccnt:
+    print("-- Nama BPH coconut computer club : ",nama)
+
+
+# Belajar Range di python
+
+nomor = range(1,11)
+
+for no in nomor:
+    print(no)
 
 print('-----------------------------------------')
 print('-----------------from--------------------')
