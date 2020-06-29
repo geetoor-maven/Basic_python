@@ -70,3 +70,8 @@ elif program == "5":
 
 else:
     print(" -- Program Keluar -- ")
+
+
+print('-----------------------------------------')
+print('-----------------from--------------------')
+print('----------- shegi-developer -------------')
