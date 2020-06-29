@@ -79,7 +79,7 @@ elif nomor == "2":
         print(" -- Pembayaran anda : ",jus)
 
     else:
-        
+
          print(" -- Menu tidak tersedia --")
 
 else:
