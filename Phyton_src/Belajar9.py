@@ -39,3 +39,8 @@ while True:
     if data == "Agus":
         break
     print(data)
+
+
+print('-----------------------------------------')
+print('-----------------from--------------------')
+print('----------- shegi-developer -------------')
