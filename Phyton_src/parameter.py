@@ -33,3 +33,20 @@ a = int(input("Masukkan nilai pertama :"))
 b = int(input("Masukkan nilai kedua :"))
 
 Tambah(a,b)
+
+print("\n")
+
+# Belajar argument parameter = list *
+
+def Perkalian(*kali):
+    hasil = 0
+    for angka in kali:
+        hasil = hasil + angka
+    print("Angka ke :",kali," :",hasil)
+
+Perkalian(30,20)
+
+
+print('-----------------------------------------')
+print('-----------------from--------------------')
+print('----------- shegi-developer -------------')
